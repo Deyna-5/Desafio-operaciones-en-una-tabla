@@ -6,6 +6,7 @@ CREATE DATABASE posts;
 
 --Creacion de tabla post
 CREATE TABLE post(
+	id SERIAL,
 	nombre_usuario VARCHAR(20),
 	fecha_creacion DATE,
 	contenido VARCHAR(300),
